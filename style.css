@@ -1,118 +1,16 @@
-body{
-    padding:0;
-    margin: 0;
-    background-color:white;
-    font-family: poppins;
-  }
-  
-  
-  header{
-    margin-top:10px;
-    display: flex;
-    flex-direction: row;
-  }
-  header img{
-  margin-left: 160px;
-  }
-   header p{
-  font-size: 30px;
-    margin-left:5px;
-  }
-  .button{
-  border-radius: 10px;
-  width:95px;
-  color: white;
-  margin-left: 100px;
-  height: 30px;
-  margin:auto;
-  background-color:#171A31;
-  }
-  .content img{
-    background-color: white;
-  }
-  .content{
-    display:flex;
-    flex-direction: row-reverse;
-    width:1010px;
-    height: 528px;
-    background-color: #F8F8FA;
-    margin-left: 150px;
-  }
-  
-  h1{
-    width: 290px;
-    margin: 30px;
-    padding-top: 30px;
-    font-size: 42px;
-    line-height: 63px;
-  }
-  .get{
-    margin-left: 30px;
-    width:150px;
-    height: 40px;
-    background-color: #171A31;
-    border-radius: 10px;
-    color: #F8F8FA;
-  }
-  p{
-    width:455px;
-    margin:30px;  
-  }
-  @media (max-width:800px) {
-    body{
-      margin:0;
-      background-color:white;
-      font-family: poppins;
-    }
-    header{
-      display: flex;
-      flex-direction: row;
-    }
-    header img{
-    margin-left:230px;
-    width:60px;
-    }
-    p{
-      margin-right: 120px;
-      font-size: 35px;
-    }
-    .button{
-      border-radius: 12px;
-      width:40%;
-      color: white;
-      font-size: 15px;
-      height: 35px;
-      background-color:#171A31;
-      }
-      .content{
-        display: block;
-        background-color:white;
-        margin:auto;
-      }
-      .content img{
-      margin-left: 223px;
-      }
-      .content1{
-        margin: auto;
-        width:560px;
-        height: 620px;
-        padding-top: 10px;
-        background-color: #F8F8FA;
-      }
-      h1{
-        width: 370px;
-        margin: 30px;
-        padding-top: 30px;
-        font-size: 42px;
-        line-height: 63px;
-      }
-      .get{
-        margin-left: 30px;
-        width:180px;
-        height: 50px;
-        font-size: 20px;
-        background-color: #171A31;
-        border-radius: 15px;
-        color: #F8F8FA;
-      }
-  }
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ position: relative;
+ border: none;
+ outline: none;
+ font-family: sans-serif;   
+}
+p{
+   margin:8px;
+}
+.style{
+    background-color: bisque;
+color: black;
+}
